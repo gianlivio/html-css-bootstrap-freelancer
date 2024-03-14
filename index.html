@@ -16,132 +16,128 @@
 </head>
 
 <body>
-
-    <!-- Header -->
-    <header>
-        <nav>
-          <div>
-            <a href="">Start Bootstrap</a>
-            <button>
-              <span></span>
-            </button>
-            <div>
-              <ul>
-                <li>
-                  <a href="">Portfolio</a>
-                </li>
-                <li>
-                  <a href="">About</a>
-                </li>
-                <li>
-                  <a href="">Contact</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-      </header>
-    <!-- /Header -->
-    <!-- main -->
-    <main>
-        <!-- Hero -->
-        <section>
-            <img src="./img/avatar.svg" alt="Profile Image">
-            <h1>START BOOTSTRAP</h1>
-            <p>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</p>
-        </section>
-
-
-        <!-- Portfolio Section -->
-        <section id="portfolio">
-            <h2>PORTFOLIO</h2>
-            <div>
-                <img src="./img/cabin.png" alt="Portfolio item">
-               
-            </div>
-
-            <div>
-                <img src="./img/cake.png" alt="Portfolio item">
-                            </div>
-
-            <div>
-                <img src="./img/circus.png" alt="Portfolio item">
-                            </div>
-
-            <div>
-                <img src="./img/game.png" alt="Portfolio item">
-                            </div>
-
-            <div>
-                <img src="./img/safe.png" alt="Portfolio item">
-                            </div>
-
-            <div>
-                <img src="./img/submarine.png" alt="Portfolio item">
-                            </div>
-
-        </section>
-        <!-- /Portfolio -->
+    <div class="container">
+        
+        <!-- Header -->
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">Start Bootstrap</a>
+                    <button>
+                        <span></span>
+                    </button>
+                    <div>
+                        <ul>
+                            <li>
+                                <a href="">Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="">About</a>
+                            </li>
+                            <li>
+                                <a href="">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!-- /Header -->
+        <!-- main -->
+        <main>
+            
+            <!-- Hero -->
+            <section class="text-center my-5">
+                <img src="./img/avatar.svg" alt="Profile Image">
+                <h1>START BOOTSTRAP</h1>
+                <p>GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</p>
+            </section>
 
 
-        <!-- About Section -->
-        <section id="about">
-            <h2>ABOUT</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque accusantium harum molestias maiores hic
-                quasi cupiditate earum iste! Hic rerum quidem optio consequuntur possimus? Eveniet commodi omnis
-                explicabo ipsa laboriosam!</p>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error deserunt illo, ex ducimus accusamus
-                commodi ullam optio. Nam, reprehenderit fugiat placeat consectetur ad, nisi, beatae omnis repudiandae
-                quaerat expedita voluptate?</p>
-            <button>Download</button>
-        </section>
-        <!-- About Section -->
+            <!-- Portfolio Section -->
+            <section class="row my-5" id="portfolio">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <img class="img-fluid"  src="./img/cabin.png" alt="Cabin">
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <img class="img-fluid" src="./img/cake.png" alt="Cake">
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <img class="img-fluid" src="./img/circus.png" alt="Circus">
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <img class="img-fluid" src="./img/game.png" alt="Game">
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <img class="img-fluid" src="./img/safe.png" alt="Safe">
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <img class="img-fluid" src="./img/submarine.png" alt="Submarine">
+                </div>
+            </section>
+            <!-- /Portfolio -->
 
-        <!-- Contact Section -->
-        <section id="contact">
-            <h2>CONTACT ME</h2>
-            <form>
-                <input type="text" name="name" placeholder="Name">
-                <input type="email" name="email" placeholder="Email Address">
-                <input type="tel" name="phone" placeholder="Phone Number">
-                <textarea name="message" placeholder="Message"></textarea>
-                <button type="submit">Send</button>
-            </form>
-        </section>
 
-        <!-- /Contact Section -->
+            <!-- About Section -->
+            <section id="about" class="my-5">
+                <h2>ABOUT</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque accusantium harum molestias maiores
+                    hic
+                    quasi cupiditate earum iste! Hic rerum quidem optio consequuntur possimus? Eveniet commodi omnis
+                    explicabo ipsa laboriosam!</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error deserunt illo, ex ducimus accusamus
+                    commodi ullam optio. Nam, reprehenderit fugiat placeat consectetur ad, nisi, beatae omnis
+                    repudiandae
+                    quaerat expedita voluptate?</p>
+                <button>Download</button>
+            </section>
+            <!-- About Section -->
 
-    </main>
-    <!-- /main -->
+            <!-- Contact Section -->
+            <section id="contact" class="my-5">
+                <h2>CONTACT ME</h2>
+                <form>
+                    <input type="text" name="name" placeholder="Name">
+                    <input type="email" name="email" placeholder="Email Address">
+                    <input type="tel" name="phone" placeholder="Phone Number">
+                    <textarea name="message" placeholder="Message"></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </section>
 
-    <!-- Footer -->
-    <footer>
-        <!-- Address and Social Links -->
-        <section>
+            <!-- /Contact Section -->
 
-            <address>
-                LOCATION
-                <br>
-                2215 John Daniel Drive Clark, MO 65243
-            </address>
-            <div>
-                <p>ABOUT THE WEB<br></p>
-                <!-- Social media links -->
-                <a href="#">Facebook</a>
-                <a href="#">Google+</a>
-                <a href="#">Twitter</a>
-                <a href="#">LinkedIn</a>
-            </div>
-            <p>ABOUT FREELANCER<br>
-                Freelancer is a free to use, open source Bootstrap theme created by Start Bootstrap.</p>
-        </section>
+        </main>
+        <!-- /main -->
 
-        <!-- Copyright -->
-        <section>
-            <p>Copyright ............</p>
-        </section>
-    </footer>
+        <!-- Footer -->
+        <footer class="my-5">
+            <!-- Address and Social Links -->
+            <section>
 
+                <address>
+                    LOCATION
+                    <br>
+                    2215 John Daniel Drive Clark, MO 65243
+                </address>
+                <div>
+                    <p>ABOUT THE WEB<br></p>
+                    <!-- Social media links -->
+                    <a href="#">Facebook</a>
+                    <a href="#">Google+</a>
+                    <a href="#">Twitter</a>
+                    <a href="#">LinkedIn</a>
+                </div>
+                <p>ABOUT FREELANCER<br>
+                    Freelancer is a free to use, open source Bootstrap theme created by Start Bootstrap.</p>
+            </section>
+
+            <!-- Copyright -->
+            <section>
+                <p>Copyright ............</p>
+            </section>
+        </footer>
+    </div>
 </body>
 
 </html>
